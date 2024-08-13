@@ -62,3 +62,34 @@ nav a img {
     text-align: justify;
     font-size: 1.5rem;
 }
+
+#apps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.app {
+    width: 45%;
+    margin: 10% auto;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.info {
+    position: relative;
+    bottom: 25%;
+    padding: 15px;
+    background: #00000090;
+    color: white;
+    width: 100%;
+}
+
+.info a {
+    color: white;
+}
+
+.app img {
+    height: 100%;
+    width: 100%;
+}
